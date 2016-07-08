@@ -1,0 +1,17 @@
+{
+  "name": "devgeniem/acf-flexible-visibility",
+  "type": "wordpress-plugin",
+  "license": "GPL-3.0",
+  "description": "A WordPress and an Advanced Custom Fields plugin that adds an option to ignore certain page templates when declaring ACF Flexible Content layouts.",
+  "authors": [
+    {
+      "name": "Miika Arponen",
+      "email": "miika.arponen@geniem.com",
+      "homepage" : "https://github.com/Nomafin"
+    }
+  ],
+  "require": {
+    "php": ">=5.6",
+    "composer/installers": "v1.0.12"
+  }
+}
