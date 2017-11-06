@@ -51,9 +51,13 @@ jQuery(document).ready(function($) {
 			$("select.acf-flexible-visibility-select").select2();
 
 			$("select.acf-flexible-visibility-select.acf-fv-" + layout_id ).on("change", function(e) {
-				var values = e.val;
+                var values = $(e.target).val();
 
-				$("input.acf-fv-hidden-" + layout_id).val( values.join(",") );
+                if (values) {
+                    values = values.join(',');
+                }
+
+                $("input.acf-fv-hidden-" + layout_id).val(values);
 			});
 		});
 	}
