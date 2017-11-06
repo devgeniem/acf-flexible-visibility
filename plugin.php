@@ -110,7 +110,7 @@ class ACF_Flexible_Visibility {
 
 		$template = get_page_template_slug( $post_id );
 
-		$content = $wpdb->get_var( $wpdb->prepare( "SELECT post_content FROM $wpdb->posts WHERE post_name = %s", $field["parent"] ));
+        $content = $wpdb->get_var($wpdb->prepare("SELECT post_content FROM $wpdb->posts WHERE ID = %s OR post_name = %s", $field["parent"], $field["parent"]));
 
 		$content = unserialize( $content );
 
