@@ -3,7 +3,7 @@
 Plugin Name: Advanced Custom Fields: Flexible Visibility
 Plugin URI: https://github.com/devgeniem/acf-flexible-visibility
 Description: Limit flexible content layouts not to show on certain page templates.
-Version: 0.0.1
+Version: 0.0.2
 Author: Miika Arponen / Geniem
 Author URI: https://github.com/devgeniem
 License: GPLv2 or later
